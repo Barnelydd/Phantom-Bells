@@ -22,18 +22,19 @@ public class Main {
 			window.pack();
 			
 			
-			/*
-			int[][] setiado = { '1920' , '1280'},
-					 {'2880', '1920'} ;
-					 
+			
+			int[][] setiado = {
+					 {1920 , 1280},
+					 {2880, 1920}
+					};
 					 
 					 //Luego le añadimos public a esta mrd que me está dando problemas
 					 //El truquito recién inventado como que no me va a funcionar eh
-					 final int ResY = setiado[1];
-					 final int ResX = setiado[2];
+					 final int ResY[] = {setiado[1][1], setiado[1][2]};
+					 final int ResX[] = {setiado[2][1], setiado[2][2]};
 					 
 					 System.out.println("La resolucion es de: " + ResY + " por " + ResX );
-			 * */
+			 
 
 	
 	}
@@ -45,7 +46,9 @@ public class Main {
 	}
 	public static void Inpt()
 	{
-		/*
+		//Nadie me la pueda pelarrrlskef
+
+		
 		Scanner scan = new Scanner(System.in);
 		System.out.println("What ya looking at?");
 		
@@ -54,8 +57,7 @@ public class Main {
 		
 		
 		System.out.println("You are looking at: " +  thinga);
-		 * */
-		
+			
 		//String color1 = JOptionPane.showInputDialog("Is it blue?");
 		
 		
