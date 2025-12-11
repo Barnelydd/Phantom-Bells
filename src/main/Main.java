@@ -19,7 +19,7 @@ public class Main {
 			
 			
 			window.pack();
-			
+			 
 			window.setLocationRelativeTo(window);
 			window.setVisible(true);
 			
